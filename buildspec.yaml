@@ -13,4 +13,4 @@ artifacts:
         - package.json
         - package-lock.json
         - build/**/*
-        - .platform/**/*
+
