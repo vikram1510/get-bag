@@ -1,0 +1,16 @@
+version: 0.2
+phases:
+    install:
+        commands:
+            - 'npm install'
+    build:
+        commands:
+            - echo 'Building...'
+            - 'npm run build'
+            - echo 'Building complete'
+artifacts:
+    files:
+        - package.json
+        - package-lock.json
+        - build/**/*
+        - .platform/**/*
